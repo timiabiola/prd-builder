@@ -1,4 +1,4 @@
-# prd-builder
+# PRD Builder
 
 A Claude Code skill that orchestrates a full, superpowers-integrated project bootstrap — turning a rough idea into a complete Product Requirements Document, an analytics/measurement framework, and a ready-to-build project scaffold in one continuous run.
 
