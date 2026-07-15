@@ -1,0 +1,26 @@
+{
+  "skill_name": "prd-builder",
+  "evals": [
+    {
+      "id": 0,
+      "name": "b2b-saas-invoicing",
+      "prompt": "I want to bootstrap a new B2B SaaS for invoice automation — small accounting firms in the US, $49/mo per seat, target $50K MRR in 6 months. Tech stack: Next.js + Convex. Marketing through LinkedIn ads and Google. Set up the project with everything I need to start building.",
+      "expected_output": "PRD + project scaffolding in docs/ folder (prd.md, tasks.md, planning.md, checkpoint.md) plus CLAUDE.md at root. No native task list machinery. docs/planning.md and CLAUDE.md must reference superpowers workflow.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "medspa-clinic-mode",
+      "prompt": "Help me plan a marketing platform for a medspa that does Botox, fillers, and hormone replacement therapy. They want to track leads from Meta and Google ads through to consultation booking and program purchases. Programs range $2K-$15K. HIPAA-compliant. Create the PRD and bootstrap the project.",
+      "expected_output": "CLINIC MODE PRD with HIPAA considerations, patient journey tracking, program tiers. 4 docs in docs/ + CLAUDE.md at root. Superpowers workflow documented.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "coaching-booking-platform",
+      "prompt": "Plan this app: a coaching booking platform where business coaches list their services and clients book 1:1 sessions. Coaches take a 70% revenue cut, platform keeps 30%. Stripe Connect for payouts. Targeting executive coaches first. Build out the requirements doc and project scaffold.",
+      "expected_output": "Two-sided marketplace PRD with payment integration, booking flow, dashboard. 4 docs in docs/ + CLAUDE.md at root. Superpowers workflow documented.",
+      "files": []
+    }
+  ]
+}
